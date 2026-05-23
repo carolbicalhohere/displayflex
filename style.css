@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#direita img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit:cover ;
+    margin-top: 60px;
+}
+
+#direita h2{
+    font-weight: 700px;
+    font-size: 25px;
+}
+
+.menu{
+    position: sticky;
+    top: 0;
+    width: 22%;
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.04);
+  font-family: "Poppins", Arial, sans-serif;
+
+}
+
+ul a{
+    color: black;
+}
+
+
+
+ul{
+    padding-top: 30px;
+    list-style: none;
+    line-height: 50px;
+    width: 100%;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+   
+    
+}
+
+.question{
+    display: flex;
+    flex-direction: column; 
+    height: 30vh;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+body{
+    display: flex;
+}
+
+input{
+    height: 52px;
+    width: 224px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+
+
+
+.imagemdolado{
+    object-fit: cover;
+    width: 750px;
+    height: 965px; 
+    
+}
+
+
+
+
+
+
+
+
+.Louie{
+    font-family: "Herr Von Muellerhoff", cursive;
+    
+}
+
+.textodolado{
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", Arial, sans-serif;
+    
+}
+
+.textodolado 
+    p {
+        margin-top: 0;
+        font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #999999;
+    letter-spacing: 1px;
+  
+}
+
+.textodolado span{
+font-size: 24px;
+    color: #999999;
+}
+
+.textodolado h1{
+    line-height: 1.5;
+    font-size: 2.5rem;   
+     margin-top: 0%;
+}
+
+.textodolado i{
+    font-weight: 900px;
+    color: #ccb78f;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+#aviaozinho{
+    height: 20px;
+    position: absolute;
+    left: 70%;
+    bottom: 11%;
+}
+
+.textodolado h3{
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-weight: 400;
+    width: 415.5px;
+    font-size: 2.5rem;
+    font-style: normal;
+}
+
+
+.iconeslista li a{
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+}
